@@ -4,7 +4,7 @@
   "description": "Opinionated standard library for JavaScript to enable importing global objects",
   "main": "modules/",
   "directories": {
-    "lib": "lib"
+    "lib": "modules"
   },
   "scripts": {
     "test": "exit 0"

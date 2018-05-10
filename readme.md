@@ -11,6 +11,12 @@ npm install ndugger/std --save
 
 ## Examples
 ```javascript
+import console from 'std/console';
+
+console.log(...);
+```
+
+```javascript
 import Object from 'std/object';
 
 Object.assign(...);
@@ -29,7 +35,19 @@ new Worker(...);
 ```
 
 ```javascript
+import Worker from 'std/dom/window';
+
+window.onload = event => { ... };
+```
+
+```javascript
 import Buffer from 'std/node/buffer';
 
 Buffer.from(...);
+```
+
+```javascript
+import process from 'std/node/process';
+
+process.stdout.write(...);
 ```
