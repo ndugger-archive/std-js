@@ -31,5 +31,5 @@ const worker = new Worker(...);
 ```javascript
 import Buffer from 'std/node/buffer';
 
-Buffer.from(...)
+Buffer.from(...);
 ```
