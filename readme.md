@@ -35,7 +35,7 @@ new Worker(...);
 ```
 
 ```javascript
-import Worker from 'std/dom/window';
+import window from 'std/dom/window';
 
 window.onload = event => { ... };
 ```
