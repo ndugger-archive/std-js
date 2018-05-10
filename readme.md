@@ -25,7 +25,7 @@ WebAssembly.compile(...);
 ```javascript
 import Worker from 'std/dom/worker';
 
-const worker = new Worker(...);
+new Worker(...);
 ```
 
 ```javascript
