@@ -15,3 +15,9 @@ import Object from 'std/object';
 
 Object.assign(...);
 ```
+
+```javascript
+import Worker from 'std/dom/worker';
+
+const worker = new Worker(...);
+```
