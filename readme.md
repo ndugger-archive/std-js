@@ -17,7 +17,17 @@ Object.assign(...);
 ```
 
 ```javascript
+import WebAssembly from 'std/web-assembly';
+
+WebAssembly.compile(...);
+```
+
+```javascript
 import Worker from 'std/dom/worker';
 
 const worker = new Worker(...);
 ```
+
+```javascript
+import Buffer from 'std/node/buffer';
+```;
