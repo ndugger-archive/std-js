@@ -56,11 +56,30 @@ the default export is a `class`, or an `object`, `instance`, `variable`, etc.
 - `import Date from 'std/Date';`
 - `import Error from 'std/Error';`
 - `import Function from 'std/Function';`
+- `import JSON from 'std/JSON';`
+- `import Map from 'std/Map';`
+- `import Math from 'std/Math';`
+- `import NaN from 'std/NaN';`
+- `import Number from 'std/Number';`
+- `import Object from 'std/Object';`
+- `import Promise from 'std/Promise';`
+- `import Proxy from 'std/Proxy';`
+- `import Reflect from 'std/Reflect';`
+- `import RegExp from 'std/RegExp';`
+- `import Set from 'std/Set';`
+- `import String from 'std/String';`
+- `import Symbol from 'std/Symbol';`
+- `import URL from 'std/URL';`
+- `import WeakMap from 'std/WeakMap';`
+- `import WeakSet from 'std/WeakSet';`
+- `import WebAssembly from 'std/WebAssembly';`
 - `import console from 'std/console';`
 
 ### dom
-- `import window from 'std/dom/window';`
+- `import ServiceWorker from 'std/ServiceWorker';`
+- `import SharedWorker from 'std/SharedWorker';`
 - `import Worker from 'std/dom/Worker';`
+- `import window from 'std/dom/window';`
 
 ### node
 - `import Buffer from 'std/node/Buffer';`
