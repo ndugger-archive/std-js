@@ -23,27 +23,9 @@ Object.assign(...);
 ```
 
 ```javascript
-import Array from 'std/Array';
-
-new Array(...);
-```
-
-```javascript
 import WebAssembly from 'std/WebAssembly';
 
 WebAssembly.compile(...);
-```
-
-```javascript
-import Worker from 'std/dom/Worker';
-
-new Worker(...);
-```
-
-```javascript
-import window from 'std/dom/window';
-
-window.onload = event => { ... };
 ```
 
 ```javascript
@@ -57,3 +39,19 @@ import process from 'std/node/process';
 
 process.stdout.write(...);
 ```
+
+## Modules
+Below you can find a list of all the available imports from `std`.
+
+### std
+- `import Array from 'std/Array';`
+- `import Boolean from 'std/Boolean';`
+- `import console from 'std/console';`
+
+### dom
+- `import window from 'std/dom/window';`
+- `import Worker from 'std/dom/Worker';`
+
+## node
+- `import Buffer from 'std/node/Buffer';`
+- `import process from 'std/node/process';`
