@@ -76,11 +76,16 @@ the default export is a `class`, or an `object`, `instance`, `variable`, etc.
 - `import console from 'std/console';`
 
 ### dom
+- `import CustomEvent from 'std/dom/CustomEvent';`
+- `import DocumentFragment from 'std/dom/DocumentFragment';`
+- `import HTMLElement from 'std/dom/HTMLElement';`
 - `import ServiceWorker from 'std/dom/ServiceWorker';`
 - `import SharedWorker from 'std/dom/SharedWorker';`
 - `import Worker from 'std/dom/Worker';`
+- `import document from 'std/dom/document';`
 - `import window from 'std/dom/window';`
 
 ### node
 - `import Buffer from 'std/node/Buffer';`
+- `import Console from 'std/node/Console';`
 - `import process from 'std/node/process';`
