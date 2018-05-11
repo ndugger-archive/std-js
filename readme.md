@@ -53,6 +53,9 @@ the default export is a `class`, or an `object`, `instance`, `variable`, etc.
 
 - `import Array from 'std/Array';`
 - `import Boolean from 'std/Boolean';`
+- `import Date from 'std/Date';`
+- `import Error from 'std/Error';`
+- `import Function from 'std/Function';`
 - `import console from 'std/console';`
 
 ### dom
