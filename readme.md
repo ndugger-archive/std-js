@@ -17,25 +17,25 @@ console.log(...);
 ```
 
 ```javascript
-import Object from 'std/object';
+import Object from 'std/Object';
 
 Object.assign(...);
 ```
 
 ```javascript
-import Array from 'std/array';
+import Array from 'std/Array';
 
 new Array(...);
 ```
 
 ```javascript
-import WebAssembly from 'std/web-assembly';
+import WebAssembly from 'std/WebAssembly';
 
 WebAssembly.compile(...);
 ```
 
 ```javascript
-import Worker from 'std/dom/worker';
+import Worker from 'std/dom/Worker';
 
 new Worker(...);
 ```
@@ -47,7 +47,7 @@ window.onload = event => { ... };
 ```
 
 ```javascript
-import Buffer from 'std/node/buffer';
+import Buffer from 'std/node/Buffer';
 
 Buffer.from(...);
 ```
