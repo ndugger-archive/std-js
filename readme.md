@@ -41,7 +41,9 @@ process.stdout.write(...);
 ```
 
 ## Modules
-Below you can find a list of all the available imports from `std`.
+Below you can find a list of all the available imports from `std`. 
+Keep in mind that imports should be case-sensitive, relative to whether or not 
+the default export is a `class`, or an `object`, `instance`, `variable`, etc.
 
 ### std
 - `import Array from 'std/Array';`
