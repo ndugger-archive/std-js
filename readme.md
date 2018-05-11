@@ -6,7 +6,7 @@ Tired of global variables? Not sure where that object came from? Stop referencin
 ## How To Install
 I am no longer hosting packages on npm; you may install directly from github, though!
 ```
-npm install ndugger/std --save
+npm install ndugger/std-js --save
 ```
 
 ## Examples
