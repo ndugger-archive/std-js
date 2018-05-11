@@ -23,6 +23,12 @@ Object.assign(...);
 ```
 
 ```javascript
+import Array from 'std/array';
+
+new Array(...);
+```
+
+```javascript
 import WebAssembly from 'std/web-assembly';
 
 WebAssembly.compile(...);
