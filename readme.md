@@ -40,12 +40,17 @@ import process from 'std/node/process';
 process.stdout.write(...);
 ```
 
+```javascript
+import window from 'std/dom/window';
+
+window.onload = event => { ... };
+```
+
 ## Modules
 Below you can find a list of all the available imports from `std`. 
 Keep in mind that imports should be case-sensitive, relative to whether or not 
 the default export is a `class`, or an `object`, `instance`, `variable`, etc.
 
-### std
 - `import Array from 'std/Array';`
 - `import Boolean from 'std/Boolean';`
 - `import console from 'std/console';`
@@ -54,6 +59,6 @@ the default export is a `class`, or an `object`, `instance`, `variable`, etc.
 - `import window from 'std/dom/window';`
 - `import Worker from 'std/dom/Worker';`
 
-## node
+### node
 - `import Buffer from 'std/node/Buffer';`
 - `import process from 'std/node/process';`
