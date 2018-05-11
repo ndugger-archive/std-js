@@ -1,3 +1,3 @@
 import global from './global';
 
-export default global.Event;
+export default global.Error;
