@@ -76,8 +76,8 @@ the default export is a `class`, or an `object`, `instance`, `variable`, etc.
 - `import console from 'std/console';`
 
 ### dom
-- `import ServiceWorker from 'std/ServiceWorker';`
-- `import SharedWorker from 'std/SharedWorker';`
+- `import ServiceWorker from 'std/dom/ServiceWorker';`
+- `import SharedWorker from 'std/dom/SharedWorker';`
 - `import Worker from 'std/dom/Worker';`
 - `import window from 'std/dom/window';`
 
