@@ -78,6 +78,7 @@ the default export is a `class`, or an `object`, `instance`, `variable`, etc.
 ### dom
 - `import CustomEvent from 'std/dom/CustomEvent';`
 - `import DocumentFragment from 'std/dom/DocumentFragment';`
+- `import Event from 'std/dom/Event';`
 - `import HTMLElement from 'std/dom/HTMLElement';`
 - `import ServiceWorker from 'std/dom/ServiceWorker';`
 - `import SharedWorker from 'std/dom/SharedWorker';`
