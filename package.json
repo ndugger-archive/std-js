@@ -2,7 +2,7 @@
   "name": "std",
   "version": "1.0.0",
   "description": "Opinionated standard library for JavaScript to enable importing global objects",
-  "main": "modules/",
+  "main": "modules/global.js",
   "directories": {
     "lib": "modules"
   },
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ndugger/std.git"
+    "url": "git+https://github.com/ndugger/std-js.git"
   },
   "author": "Nick Dugger",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ndugger/std/issues"
+    "url": "https://github.com/ndugger/std-js/issues"
   },
-  "homepage": "https://github.com/ndugger/std#readme",
+  "homepage": "https://github.com/ndugger/std-js#readme",
   "dependencies": {
     "npm": "^6.0.1"
   }
