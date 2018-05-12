@@ -2,10 +2,13 @@
   "name": "std",
   "version": "1.0.0",
   "description": "Opinionated standard library for JavaScript to enable importing global objects",
-  "main": "modules/global.js",
+  "main": "modules/index.js",
   "directories": {
-    "lib": "modules"
+    "lib": "modules/"
   },
+  "files": [
+    "modules/"
+  ],
   "scripts": {
     "test": "exit 0"
   },
