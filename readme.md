@@ -74,6 +74,7 @@ the default export is a `class`, or an `object`, `instance`, `variable`, etc.
 - `import WeakSet from 'std/WeakSet';`
 - `import WebAssembly from 'std/WebAssembly';`
 - `import console from 'std/console';`
+- `import setTimeout from 'std/setTimeout';`
 
 ### dom
 - `import CustomEvent from 'std/dom/CustomEvent';`
@@ -84,6 +85,7 @@ the default export is a `class`, or an `object`, `instance`, `variable`, etc.
 - `import SharedWorker from 'std/dom/SharedWorker';`
 - `import Worker from 'std/dom/Worker';`
 - `import document from 'std/dom/document';`
+- `import requestAnimationFrame from 'std/dom/requestAnimationFrame';`
 - `import window from 'std/dom/window';`
 
 ### node
