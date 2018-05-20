@@ -1,1 +1,1 @@
-export default typeof global === 'undefined' ? window : global;
+export default (() => typeof global === 'undefined' ? window : global)();
