@@ -22,8 +22,5 @@
   "bugs": {
     "url": "https://github.com/ndugger/std-js/issues"
   },
-  "homepage": "https://github.com/ndugger/std-js#readme",
-  "dependencies": {
-    "npm": "^6.0.1"
-  }
+  "homepage": "https://github.com/ndugger/std-js#readme"
 }
