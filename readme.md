@@ -1,3 +1,8 @@
+# DO NOT USE
+This was an experiment that I decided was definitely not worth the effort. The benefits were nonexistent, and the headache was real. I still don't like globals, but I also don't like this solution.
+
+---
+
 # JavaScript Standard Library: std
 **Opinionated** standard library for JavaScript to enable importing global objects.
 
